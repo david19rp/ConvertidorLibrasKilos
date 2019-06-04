@@ -1,3 +1,7 @@
+main{
+    width: 100%;
+    margin: 0 auto;
+}
 h1{
     width: 45%;
     display: block;
@@ -15,9 +19,9 @@ h1{
 
 button{
     border:none;
-    width: 10%;
+    width: 20%;
     height: 1.9em;
-    border-radius: 4.43m;
+    border-radius: 4.43em;
     color: #516365;
     background-color: #EFF5DB;
 }
@@ -28,7 +32,7 @@ button:active{
 
 .resultLibrasGramosCss{
     width: 60%;
-    margin: 0 auto;
+    margin: 0.6em auto;
     color:#EE6B61;
     font-size: 3em;
     font-family: Arial, Helvetica, sans-serif;
@@ -63,4 +67,62 @@ p{
     margin: 0 auto;
     /* border-radius: 1.5em; */
     display: none;
+}
+
+
+@media screen and (max-width: 600px){
+    main{
+        width: 100%;
+        margin: 0 auto;
+    }
+    h1{
+        width: 70%;
+    }
+    input{
+        width: 90%;
+        text-align: center;
+        border-radius: 8px;
+        /* border-color: grey; */
+        color:white;
+        background-color: #7F9D9D;
+    }
+    button{
+        display: block;
+        margin: 1em auto;
+        border:none;
+        width: 49%;
+        height: 1.9em;
+        border-radius: 4.43m;
+        color: #516365;
+        background-color: #EFF5DB;
+    }
+
+    p{
+        width: 120%;
+        background-color: #EE6B61;
+        opacity: 0.5;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.5em;
+        color:white;
+        margin: 0 -13%;
+        display: none;
+    }
+
+    .resultLibrasGramosCss{
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+        color:#EE6B61;
+        font-size: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    h3{
+        font-size: 1em;
+        display: block;
+        width: 45%;
+        text-align: center;
+        
+    }
 }

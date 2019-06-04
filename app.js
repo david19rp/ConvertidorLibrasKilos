@@ -9,7 +9,7 @@ btn.addEventListener("click", function () {
 
     } else {
         // agregar un return con html
-        let newElement = document.getElementById("resultLibrasGramos").innerHTML = '<p style="display:block;">'+'Por favor,introducir un numero entero!'+'</p>';
+        let newElement = document.getElementById("resultLibrasGramos").innerHTML = '<p style="display:block;">'+'Introducir un numero entero!'+'</p>';
         
          
     
