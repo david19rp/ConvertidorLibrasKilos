@@ -1,0 +1,66 @@
+h1{
+    width: 45%;
+    display: block;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #7F9D9D;
+}
+
+.holder{
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button{
+    border:none;
+    width: 10%;
+    height: 1.9em;
+    border-radius: 4.43m;
+    color: #516365;
+    background-color: #EFF5DB;
+}
+button:active{
+    background-color: goldenrod;
+
+}
+
+.resultLibrasGramosCss{
+    width: 60%;
+    margin: 0 auto;
+    color:#EE6B61;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+input{
+    width: 35%;
+    text-align: center;
+    border-radius: 8px;
+    /* border-color: grey; */
+    color:white;
+    background-color: #7F9D9D;
+}
+
+::placeholder{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    opacity:0.5;
+}
+
+p{
+    width: 90%;
+    background-color: #EE6B61;
+    opacity: 0.5;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.4em;
+    color:white;
+    margin: 0 auto;
+    /* border-radius: 1.5em; */
+    display: none;
+}
