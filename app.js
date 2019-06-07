@@ -1,3 +1,4 @@
+
 // libras a kilos
 let btn = document.getElementById("btn1");
 btn.addEventListener("click", function () {
@@ -51,4 +52,11 @@ btn2.addEventListener("click", function () {
 
 }
 );  
+// averiguar cual es el numero mayor de un array
+let numeros = [1, 6, 8, 4, 2, 7, 10, 3, 5 ];
 
+
+for ( let i = 0;  i>=numeros ; i++ ){
+let comparar = 0 > numeros[i];
+
+};
