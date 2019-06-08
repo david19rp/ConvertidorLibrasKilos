@@ -1,3 +1,24 @@
+
+//Sacar porcentaje
+let btn3 = document.getElementById("btn3");
+btn3.addEventListener("click", function () {
+    let inputTextType3 = document.getElementById("valorPorncentaje").value;
+    let inputTextType4 = document.getElementById("valorTotal").value;
+    let regex_numeros = /^[0-9]+$/;
+    if (regex_numeros.exec(inputTextType3) && (regex_numeros.exec(inputTextType4))) {
+        // calcular formula
+        let formulaPorcentaje = inputTextType4 *inputTextType3/ 100;
+        let show = document.getElementById("resultPorcentaje").innerHTML = "<h3>" + Math.round(formulaPorcentaje) + "</h3>";
+
+    } else {
+        // agregar un return con html
+        let newElement = document.getElementById("resultPorcentaje").innerHTML = '<p style="display:block;">'+'Introducir un numero entero!'+'</p>';
+    }
+}
+); 
+
+
+
 // libras a kilos
 let btn = document.getElementById("btn1");
 btn.addEventListener("click", function () {
@@ -49,20 +70,3 @@ console.log(mayor);
 
 
 // total*%/100
-//Sacar porcentaje
-let btn3 = document.getElementById("btn3");
-btn3.addEventListener("click", function () {
-    let inputTextType3 = document.getElementById("valorPorncentaje").value;
-    let inputTextType4 = document.getElementById("valorTotal").value;
-    let regex_numeros = /^[0-9]+$/;
-    if (regex_numeros.exec(inputTextType3) && (regex_numeros.exec(inputTextType4))) {
-        // calcular formula
-        let formulaPorcentaje = inputTextType4 *inputTextType3/ 100;
-        let show = document.getElementById("resultPorcentaje").innerHTML = "<h3>" + Math.round(formulaPorcentaje) + "</h3>";
-
-    } else {
-        // agregar un return con html
-        let newElement = document.getElementById("resultPorcentaje").innerHTML = '<p style="display:block;">'+'Introducir un numero entero!'+'</p>';
-    }
-}
-); 
